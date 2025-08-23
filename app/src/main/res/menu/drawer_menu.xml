@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/drawer_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Main Navigation -->
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile_nav"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_my_posts"
+            android:icon="@drawable/ic_my_posts_nav"
+            android:title="My Posts" />
+    </group>
+
+    <!-- Admin Section -->
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_admin"
+            android:title="Admin Panel"
+            android:visible="false" />
+    </group>
+
+    <group android:id="@+id/theme_group">
+        <item android:title="Theme">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_theme_light"
+                        android:icon="@drawable/ic_light_mode"
+                        android:title="Light Theme"
+                        android:checkable="true" />
+
+                    <item
+                        android:id="@+id/nav_theme_dark"
+                        android:icon="@drawable/ic_dark_mode"
+                        android:title="Dark Theme"
+                        android:checkable="true" />
+
+                    <item
+                        android:id="@+id/nav_theme_system"
+                        android:icon="@drawable/ic_theme_nav"
+                        android:title="System Theme"
+                        android:checkable="true"
+                        android:checked="true" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:id="@+id/language_group">
+        <item android:title="Language">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_lang_english"
+                        android:icon="@drawable/ic_language"
+                        android:title="English"
+                        android:checkable="true"
+                        android:checked="true" />
+
+                    <item
+                        android:id="@+id/nav_lang_khmer"
+                        android:icon="@drawable/ic_language"
+                        android:title="ភាសាខ្មែរ"
+                        android:checkable="true" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <!-- Logout -->
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+</menu>

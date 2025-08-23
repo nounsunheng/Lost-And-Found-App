@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_my_posts"
+            android:icon="@drawable/ic_my_posts"
+            android:title="My Posts" />
+
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@drawable/ic_theme"
+            android:title="Change Theme">
+            <menu>
+                <item
+                    android:id="@+id/nav_theme_light"
+                    android:title="Light Mode" />
+                <item
+                    android:id="@+id/nav_theme_dark"
+                    android:title="Dark Mode" />
+                <item
+                    android:id="@+id/nav_theme_system"
+                    android:title="Follow System" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_language"
+            android:title="Language">
+            <menu>
+                <item
+                    android:id="@+id/nav_lang_english"
+                    android:title="English" />
+                <item
+                    android:id="@+id/nav_lang_khmer"
+                    android:title="ខ្មែរ (Khmer)" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_admin"
+            android:title="Admin Panel"
+            android:visible="false" />
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

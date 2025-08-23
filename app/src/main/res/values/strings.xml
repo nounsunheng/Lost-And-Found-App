@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Lost &amp; Found</string>
+
+    <!-- Navigation -->
+    <string name="navigation_home">Home</string>
+    <string name="navigation_profile">Profile</string>
+    <string name="navigation_my_posts">My Posts</string>
+    <string name="navigation_admin">Admin Panel</string>
+
+    <!-- Authentication -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue finding your items</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Join our community to help find lost items</string>
+    <string name="login_button">Sign In</string>
+    <string name="register_button">Create Account</string>
+    <string name="logout_button">Logout</string>
+
+    <!-- Form Fields -->
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_phone">Phone Number (Optional)</string>
+    <string name="hint_title">Item Title</string>
+    <string name="hint_description">Describe the item</string>
+    <string name="hint_contact">Contact Info (Phone/Email)</string>
+    <string name="hint_search">Search for lost or found items...</string>
+
+    <!-- Post Types -->
+    <string name="type_lost">Lost Item</string>
+    <string name="type_found">Found Item</string>
+    <string name="type_all">All Items</string>
+
+    <!-- Buttons -->
+    <string name="button_create_post">Create Post</string>
+    <string name="button_report_item">Report Item</string>
+    <string name="button_contact">Contact</string>
+    <string name="button_call">Call</string>
+    <string name="button_message">Message</string>
+    <string name="button_share">Share</string>
+    <string name="button_gallery">Gallery</string>
+    <string name="button_camera">Camera</string>
+    <string name="button_change_password">Update Password</string>
+
+    <!-- Status Messages -->
+    <string name="status_loading">Loading...</string>
+    <string name="status_no_posts">No posts found</string>
+    <string name="status_no_my_posts">No posts yet.\nCreate your first post!</string>
+    <string name="status_empty_admin">Posts will appear here as users create them</string>
+    <string name="status_post_created">Post created successfully!</string>
+    <string name="status_post_updated">Post updated successfully!</string>
+    <string name="status_post_deleted">Post deleted successfully!</string>
+    <string name="status_password_changed">Password updated successfully!</string>
+
+    <!-- Error Messages -->
+    <string name="error_network">Network error. Please try again.</string>
+    <string name="error_login_failed">Login failed. Please check your credentials.</string>
+    <string name="error_registration_failed">Registration failed. Please try again.</string>
+    <string name="error_required_fields">Please fill in all required fields.</string>
+    <string name="error_password_mismatch">Passwords do not match.</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_weak_password">Password must be at least 6 characters long.</string>
+    <string name="error_loading_posts">Failed to load posts</string>
+    <string name="error_theme_change">Failed to change theme</string>
+    <string name="error_language_change">Failed to change language</string>
+
+    <!-- Success Messages -->
+    <string name="success_login">Welcome back!</string>
+    <string name="success_registration">Account created successfully!</string>
+    <string name="success_logout">Logged out successfully</string>
+
+    <!-- Confirmation Messages -->
+    <string name="confirm_delete_post">Are you sure you want to delete this post?</string>
+    <string name="confirm_logout">Are you sure you want to logout?</string>
+
+    <!-- Time Formats -->
+    <string name="time_just_now">Just now</string>
+    <string name="time_minutes_ago">%d minutes ago</string>
+    <string name="time_hours_ago">%d hours ago</string>
+    <string name="time_days_ago">%d days ago</string>
+
+    <!-- Admin Panel -->
+    <string name="admin_title">Admin Panel</string>
+    <string name="admin_subtitle">Manage all posts and users</string>
+    <string name="admin_total_posts">Total Posts</string>
+    <string name="admin_active_users">Active Users</string>
+
+    <!-- Profile -->
+    <string name="profile_welcome">Welcome back!</string>
+    <string name="profile_info_title">Profile Information</string>
+    <string name="profile_change_password_title">Change Password</string>
+    <string name="profile_quick_actions_title">Quick Actions</string>
+    <string name="profile_current_password">Current Password</string>
+    <string name="profile_new_password">New Password</string>
+    <string name="profile_email_label">Email Address</string>
+    <string name="profile_phone_label">Phone Number</string>
+    <string name="profile_role_label">Account Type</string>
+    <string name="profile_verified_badge">VERIFIED</string>
+
+    <!-- My Posts -->
+    <string name="my_posts_title">My Posts</string>
+    <string name="my_posts_subtitle">Track and manage your lost &amp; found reports</string>
+    <string name="my_posts_lost_count">Lost Posts</string>
+    <string name="my_posts_found_count">Found Posts</string>
+    <string name="my_posts_empty_title">No posts yet</string>
+    <string name="my_posts_empty_message">Create your first post to help\nothers find their belongings!</string>
+
+    <!-- Contact -->
+    <string name="contact_available">Contact available</string>
+    <string name="contact_info_title">Contact Information</string>
+
+    <!-- Terms and Privacy -->
+    <string name="terms_agreement">I agree to the Terms of Service and Privacy Policy</string>
+
+    <!-- Accessibility -->
+    <string name="content_description_profile_image">Profile image</string>
+    <string name="content_description_post_image">Post image</string>
+    <string name="content_description_status_icon">Status icon</string>
+    <string name="content_description_back_button">Navigate back</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Menu Items -->
+    <string name="menu_profile">Profile</string>
+    <string name="menu_my_posts">My Posts</string>
+    <string name="menu_admin">Admin Panel</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- Theme Options -->
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_system">Follow System</string>
+
+    <!-- Language Options -->
+    <string name="language_english">English</string>
+    <string name="language_khmer">ខ្មែរ (Khmer)</string>
+
+    <!-- Common -->
+    <string name="welcome_back">Welcome back!</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="language">Language</string>
+    <string name="account">Account</string>
+
+    <!-- Loading -->
+    <string name="loading_more">Loading more posts...</string>
+    <string name="no_more_posts">No more posts to load</string>
+
+    <!-- Navigation Menu Items -->
+    <string name="nav_profile">Profile</string>
+    <string name="nav_my_posts">My Posts</string>
+    <string name="nav_customization">Customization</string>
+    <string name="nav_theme">Theme</string>
+    <string name="nav_theme_light">Light Mode</string>
+    <string name="nav_theme_dark">Dark Mode</string>
+    <string name="nav_theme_system">Follow System</string>
+    <string name="nav_language">Language</string>
+    <string name="nav_lang_english">English</string>
+    <string name="nav_lang_khmer">ភាសាខ្មែរ (Khmer)</string>
+    <string name="nav_admin">Admin Panel</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Main Activity -->
+    <string name="search_hint">🔍 Search for lost or found items…</string>
+    <string name="chip_all">All Items</string>
+    <string name="chip_lost">🔴 Lost Items</string>
+    <string name="chip_found">🟢 Found Items</string>
+    <string name="empty_state">No posts available.\nBe the first to report an item!</string>
+    <string name="fab_report_item">Report Item</string>
+
+    <!-- Messages -->
+    <string name="loading_posts">Loading posts…</string>
+    <string name="posts_loaded_successfully">Posts loaded successfully</string>
+    <string name="failed_to_load_posts">Failed to load posts</string>
+    <string name="network_error">Network error occurred</string>
+    <string name="language_changed_khmer">ភាសាបានប្តូរទៅជាខ្មែរ</string>
+    <string name="language_changed_english">Language changed to English</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+</resources>

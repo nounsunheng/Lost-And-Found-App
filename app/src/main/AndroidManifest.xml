@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <!-- Optional Features -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:name=".LostAndFoundApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LostAndFound.Splash"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!-- Splash / Launcher Activity -->
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LostAndFound.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.LostAndFound" />
+
+        <!-- Authentication Activities -->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.LostAndFound" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.LostAndFound" />
+
+        <!-- Post Activities -->
+        <activity
+            android:name=".activity.CreatePostActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.LostAndFound" />
+        <activity
+            android:name=".activity.PostDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.LostAndFound" />
+        <activity
+            android:name=".activity.MyPostsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.LostAndFound" />
+        <activity
+            android:name=".activity.EditPostActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.LostAndFound" />
+
+        <!-- User Activities -->
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.LostAndFound" />
+
+        <!-- Admin Activity -->
+        <activity
+            android:name=".activity.AdminActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.LostAndFound" />
+
+        <!-- File Provider for Image Capture -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.kyle.lostandfoundapp.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

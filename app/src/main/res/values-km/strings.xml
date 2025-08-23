@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">របស់បាត់ និង រកឃើញ</string>
+
+    <!-- Navigation -->
+    <string name="navigation_home">ទំព័រដើម</string>
+    <string name="navigation_profile">ប្រវត្តិរូប</string>
+    <string name="navigation_my_posts">ការផ្សាយរបស់ខ្ញុំ</string>
+    <string name="navigation_admin">ផ្ទាំងគ្រប់គ្រង</string>
+
+    <!-- Authentication -->
+    <string name="login_title">សូមស្វាគមន៍</string>
+    <string name="login_subtitle">ចូលដើម្បីរកររបស់របរបស់អ្នក</string>
+    <string name="register_title">បង្កើតគណនី</string>
+    <string name="register_subtitle">ចូលរួមជាមួយយើងដើម្បីជួយរករបស់បាត់</string>
+    <string name="login_button">ចូល</string>
+    <string name="register_button">បង្កើតគណនី</string>
+    <string name="logout_button">ចាកចេញ</string>
+
+    <!-- Form Fields -->
+    <string name="hint_email">អាសយដ្ឋានអ៊ីមែល</string>
+    <string name="hint_password">ពាក្យសម្ងាត់</string>
+    <string name="hint_confirm_password">បញ្ជាក់ពាក្យសម្ងាត់</string>
+    <string name="hint_username">ឈ្មោះអ្នកប្រើប្រាស់</string>
+    <string name="hint_phone">លេខទូរស័ព្ទ (ស្រេចចិត្ត)</string>
+    <string name="hint_title">ចំណងជើងវត្ថុ</string>
+    <string name="hint_description">ពិពណ៌នាវត្ថុ</string>
+    <string name="hint_contact">ព័ត៌មានទំនាក់ទំនង (ទូរស័ព្ទ/អ៊ីមែល)</string>
+    <string name="hint_search">ស្វែងរករបស់បាត់ ឬ រកឃើញ...</string>
+
+    <!-- Post Types -->
+    <string name="type_lost">របស់បាត់</string>
+    <string name="type_found">របស់រកឃើញ</string>
+    <string name="type_all">របស់ទាំងអស់</string>
+
+    <!-- Buttons -->
+    <string name="button_create_post">បង្កើតការផ្សាយ</string>
+    <string name="button_report_item">រាយការណ៍របស់</string>
+    <string name="button_contact">ទំនាក់ទំនង</string>
+    <string name="button_call">ហៅ</string>
+    <string name="button_message">សារ</string>
+    <string name="button_share">ចែករំលែក</string>
+    <string name="button_gallery">ថតរូប</string>
+    <string name="button_camera">កាមេរ៉ា</string>
+    <string name="button_change_password">ផ្លាស់ប្តូរពាក្យសម្ងាត់</string>
+
+    <!-- Status Messages -->
+    <string name="status_loading">កំពុងផ្ទុក...</string>
+    <string name="status_no_posts">រកមិនឃើញការផ្សាយ</string>
+    <string name="status_no_my_posts">មិនទាន់មានការផ្សាយនៅឡើយ។\nបង្កើតការផ្សាយដំបូងរបស់អ្នក!</string>
+    <string name="status_empty_admin">ការផ្សាយនឹងលេចឡើងនៅទីនេះ នៅពេលអ្នកប្រើប្រាស់បង្កើត</string>
+    <string name="status_post_created">បង្កើតការផ្សាយដោយជោគជ័យ!</string>
+    <string name="status_post_updated">បានកែប្រែការផ្សាយដោយជោគជ័យ!</string>
+    <string name="status_post_deleted">បានលុបការផ្សាយដោយជោគជ័យ!</string>
+    <string name="status_password_changed">បានផ្លាស់ប្តូរពាក្យសម្ងាត់ដោយជោគជ័យ!</string>
+
+    <!-- Error Messages -->
+    <string name="error_network">មានបញ្ហាបណ្តាញ។ សូមព្យាយាមម្តងទៀត។</string>
+    <string name="error_login_failed">ការចូលបរាជ័យ។ សូមពិនិត្យព័ត៌មានរបស់អ្នក។</string>
+    <string name="error_registration_failed">ការចុះឈ្មោះបរាជ័យ។ សូមព្យាយាមម្តងទៀត។</string>
+    <string name="error_required_fields">សូមបំពេញបន្ទាត់ទាំងអស់។</string>
+    <string name="error_password_mismatch">ពាក្យសម្ងាត់មិនដូចគ្នាទេ។</string>
+    <string name="error_invalid_email">សូមបញ្ចូលអាសយដ្ឋានអ៊ីមែលត្រឹមត្រូវ។</string>
+    <string name="error_weak_password">ពាក្យសម្ងាត់ត្រូវតែយ៉ាងតិចក៏ 6 តួអក្សរ។</string>
+    <string name="error_loading_posts">បរាជ័យក្នុងការផ្ទុកការផ្សាយ</string>
+    <string name="error_theme_change">បរាជ័យក្នុងការផ្លាស់ប្តូរធីម</string>
+    <string name="error_language_change">បរាជ័យក្នុងការផ្លាស់ប្តូរភាសា</string>
+
+    <!-- Success Messages -->
+    <string name="success_login">សូមស្វាគមន៍មកវិញ!</string>
+    <string name="success_registration">បង្កើតគណនីដោយជោគជ័យ!</string>
+    <string name="success_logout">ចាកចេញដោយជោគជ័យ</string>
+
+    <!-- Confirmation Messages -->
+    <string name="confirm_delete_post">តើអ្នកពិតជាចង់លុបការផ្សាយនេះទេ?</string>
+    <string name="confirm_logout">តើអ្នកពិតជាចង់ចាកចេញទេ?</string>
+
+    <!-- Time Formats -->
+    <string name="time_just_now">អភ្លេចម្តង</string>
+    <string name="time_minutes_ago">%d នាទីមុន</string>
+    <string name="time_hours_ago">%d ម៉ោងមុន</string>
+    <string name="time_days_ago">%d ថ្ងៃមុន</string>
+
+    <!-- Admin Panel -->
+    <string name="admin_title">ផ្ទាំងគ្រប់គ្រង</string>
+    <string name="admin_subtitle">គ្រប់គ្រងការផ្សាយ និងអ្នកប្រើប្រាស់ទាំងអស់</string>
+    <string name="admin_total_posts">ការផ្សាយសរុប</string>
+    <string name="admin_active_users">អ្នកប្រើប្រាស់សកម្ម</string>
+
+    <!-- Profile -->
+    <string name="profile_welcome">សូមស្វាគមន៍មកវិញ!</string>
+    <string name="profile_info_title">ព័ត៌មានប្រវត្តិរូប</string>
+    <string name="profile_change_password_title">ផ្លាស់ប្តូរពាក្យសម្ងាត់</string>
+    <string name="profile_quick_actions_title">សកម្មភាពលឿន</string>
+    <string name="profile_current_password">ពាក្យសម្ងាត់បច្ចុប្បន្ន</string>
+    <string name="profile_new_password">ពាក្យសម្ងាត់ថ្មី</string>
+    <string name="profile_email_label">អាសយដ្ឋានអ៊ីមែល</string>
+    <string name="profile_phone_label">លេខទូរស័ព្ទ</string>
+    <string name="profile_role_label">ប្រភេទគណនី</string>
+    <string name="profile_verified_badge">បានផ្ទៀងផ្ទាត់</string>
+
+    <!-- My Posts -->
+    <string name="my_posts_title">ការផ្សាយរបស់ខ្ញុំ</string>
+    <string name="my_posts_subtitle">តាមដាន និងគ្រប់គ្រងរបាយការណ៍របស់បាត់ និង រកឃើញរបស់អ្នក</string>
+    <string name="my_posts_lost_count">ការផ្សាយរបស់បាត់</string>
+    <string name="my_posts_found_count">ការផ្សាយរបស់រកឃើញ</string>
+    <string name="my_posts_empty_title">មិនទាន់មានការផ្សាយនៅឡើយ</string>
+    <string name="my_posts_empty_message">បង្កើតការផ្សាយដំបូងរបស់អ្នកដើម្បីជួយ\nអ្នកដទៃរករបស់របស់ពួកគេ!</string>
+
+    <!-- Contact -->
+    <string name="contact_available">មានទំនាក់ទំនង</string>
+    <string name="contact_info_title">ព័ត៌មានទំនាក់ទំនង</string>
+
+    <!-- Terms and Privacy -->
+    <string name="terms_agreement">ខ្ញុំយល់ព្រមនឹងលក្ខខណ្ឌនៃសេវាកម្ម និងគោលការណ៍ឯកជនភាព</string>
+
+    <!-- Accessibility -->
+    <string name="content_description_profile_image">រូបប្រវត្តិរូប</string>
+    <string name="content_description_post_image">រូបភាពការផ្សាយ</string>
+    <string name="content_description_status_icon">រូបតំណាងស្ថានភាព</string>
+    <string name="content_description_back_button">ត្រឡប់ក្រោយ</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">បើកដ្រានេវីគេសិន</string>
+    <string name="navigation_drawer_close">បិទដ្រានេវីគេសិន</string>
+
+    <!-- Menu Items -->
+    <string name="menu_profile">ប្រវត្តិរូប</string>
+    <string name="menu_my_posts">ការផ្សាយរបស់ខ្ញុំ</string>
+    <string name="menu_admin">ផ្ទាំងគ្រប់គ្រង</string>
+    <string name="menu_logout">ចាកចេញ</string>
+
+    <!-- Theme Options -->
+    <string name="theme_light">មុខងារភ្លឺ</string>
+    <string name="theme_dark">មុខងារងងឹត</string>
+    <string name="theme_system">តាមប្រព័ន្ធ</string>
+
+    <!-- Language Options -->
+    <string name="language_english">អង់គ្លេស</string>
+    <string name="language_khmer">ខ្មែរ</string>
+
+    <!-- Common -->
+    <string name="welcome_back">សូមស្វាគមន៍មកវិញ!</string>
+    <string name="change_theme">ផ្លាស់ប្តូរធីម</string>
+    <string name="language">ភាសា</string>
+    <string name="account">គណនី</string>
+
+    <!-- Loading -->
+    <string name="loading_more">កំពុងផ្ទុកការផ្សាយបន្ថែម...</string>
+    <string name="no_more_posts">គ្មានការផ្សាយបន្ថែមទៀតទេ</string>
+
+    <!-- Navigation Menu Items -->
+    <string name="nav_profile">ប្រវត្តិរូប</string>
+    <string name="nav_my_posts">ការផ្សាយរបស់ខ្ញុំ</string>
+    <string name="nav_customization">ការកែសម្រួល</string>
+    <string name="nav_theme">ធីម</string>
+    <string name="nav_theme_light">មុខងារភ្លឺ</string>
+    <string name="nav_theme_dark">មុខងារងងឹត</string>
+    <string name="nav_theme_system">តាមប្រព័ន្ធ</string>
+    <string name="nav_language">ភាសា</string>
+    <string name="nav_lang_english">អង់គ្លេស</string>
+    <string name="nav_lang_khmer">ភាសាខ្មែរ</string>
+    <string name="nav_admin">ផ្ទាំងគ្រប់គ្រង</string>
+    <string name="nav_account">គណនី</string>
+    <string name="nav_logout">ចាកចេញ</string>
+
+    <!-- Main Activity -->
+    <string name="search_hint">🔍 ស្វែងរករបស់បាត់ ឬ រកឃើញ…</string>
+    <string name="chip_all">របស់ទាំងអស់</string>
+    <string name="chip_lost">🔴 របស់បាត់</string>
+    <string name="chip_found">🟢 របស់រកឃើញ</string>
+    <string name="empty_state">មិនមានការផ្សាយទេ។\nក្លាយជាអ្នកដំបូងក្នុងការរាយការណ៍!</string>
+    <string name="fab_report_item">រាយការណ៍របស់</string>
+
+    <!-- Messages -->
+    <string name="loading_posts">កំពុងផ្ទុកការផ្សាយ…</string>
+    <string name="posts_loaded_successfully">ការផ្សាយបានផ្ទុកដោយជោគជ័យ</string>
+    <string name="failed_to_load_posts">បរាជ័យក្នុងការផ្ទុកការផ្សាយ</string>
+    <string name="network_error">មានបញ្ហាបណ្តាញ</string>
+    <string name="language_changed_khmer">ភាសាបានប្តូរទៅជាខ្មែរ</string>
+    <string name="language_changed_english">Language changed to English</string>
+
+    <!-- Common -->
+    <string name="ok">យល់ព្រម</string>
+    <string name="cancel">បោះបង់</string>
+    <string name="yes">បាទ/ចាស</string>
+    <string name="no">ទេ</string>
+    <string name="error">កំហុស</string>
+    <string name="success">ជោគជ័យ</string>
+</resources>
